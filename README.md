@@ -17,12 +17,15 @@
  
             python hackWechatRun.py
 
-# PHP
+# PHP(多用户版本在上一次commit)
 网页版填入相应数据提交即可
 
 多用户版本添加到定时任务（crontab）可实现每日自动刷步数
 
     php -f multi-users.php >> log.txt
+
+# Front-End
+采用Ajax提交避免页面刷新
 
 # Java
 需要[okhttp](https://github.com/square/okhttp)
